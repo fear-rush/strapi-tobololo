@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "discover_tobololos",
+  "info": {
+    "singularName": "discover-tobololo",
+    "pluralName": "discover-tobololos",
+    "displayName": "discover-tobololo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "locationName": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "coverImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

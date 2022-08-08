@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_tobololos",
+  "info": {
+    "singularName": "blog-tobololo",
+    "pluralName": "blog-tobololos",
+    "displayName": "blog-tobololo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "upperField": {
+      "type": "richtext"
+    },
+    "lowerField": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "upperImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "lowerImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ticket": {
+      "type": "richtext"
+    },
+    "activity": {
+      "type": "richtext"
+    },
+    "facility": {
+      "type": "richtext"
+    },
+    "transportation": {
+      "type": "richtext"
+    },
+    "highlight": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "trivia": {
+      "type": "richtext"
+    }
+  }
+}
